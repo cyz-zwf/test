@@ -1,0 +1,19 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content:">";
+}
+.list-unstyled>li+li{
+    margin-left:0.5rem;
+}
+
+.bg-gary{
+    background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+    box-shadow:0px 0px 10px #ccc;
+}
+.m-22{
+    margin-top:-20px;
+    margin-left:45px;
+}
+.m-230{
+    margin-left:292px;
+    margin-top:-67px;
+}

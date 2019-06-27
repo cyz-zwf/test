@@ -1,0 +1,16 @@
+.my_bg_gary{
+    background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+.my_input_w{
+    width:10%;outline:0; border:0;
+}
+.pagination>li.page-item+li.page-item{
+    border-radius:0.25rem;
+    margin-left:0.5rem;
+}
+.page-link{
+    border-radius:0.25rem;
+}
+.bt_s{
+    border-bottom:1px  dotted #666 !important;
+}

@@ -1,0 +1,142 @@
+
+/*轮播图左右箭头的样式*/
+.carousel-control-next,.carousel-control-prev{
+    width:4%;
+    height:20%;
+    top:40%;
+    background-color:rgba(0,0,0,.3);
+    border-radius:0.25rem;
+}
+/*轮播图指示器样式*/
+.carousel-indicators li{
+    width:0.8rem;
+    height:0.8rem;
+    background:#fff;
+    border-radius:50%;
+    margin-right:6px;
+    margin-left:6px;
+}
+.carousel-indicators .active{
+    background:#0aa1ed;
+}
+/*1F*/
+.top-height{
+    height:377px;
+}
+.bottom-height{
+    height:235px;
+}
+.border-bottom{
+    border-width:3px !important;
+}
+.f_bg{
+    background:#e8e8e8 !important;
+}
+/*外边距溢出*/
+.top-height.f_bg::before{
+    content:"";
+    display:table;
+}
+.prize{
+    font-size:1.5rem;
+}
+/*大屏*/
+@media (min-width:992px){
+    .img1{
+        margin-top:-170px;
+        margin-right:40px;
+    }
+}
+/*中屏*/
+@media (min-width:768px) and (max-width:991px){
+    .img1{
+        margin-top:-144px;
+        margin-right:91px;
+    }
+}
+/*小屏*/
+@media (max-width:767px){
+    .img1{
+        margin-top:-206px;
+        margin-right:31px;
+    }
+}
+.img1{transition:1s;}
+.img1:hover{transform:scale(1.1);}
+/*1F大屏*/
+/*@media (min-width:992px){*/
+    /*.t1-lt{*/
+        /*float:left;*/
+        /*width:30%;*/
+        /*height:200px;*/
+        /*border:1px solid #0000ff;*/
+        /*position:absolute;*/
+        /*top:60px;*/
+        /*left:50px;*/
+    /*}*/
+    /*.t1-rt{*/
+        /*width:70%;*/
+        /*float:right;*/
+        /*margin-top:30px;*/
+        /*border:1px solid #0000ff;*/
+        /*position:absolute;*/
+        /*top:30px;*/
+        /*right:60px;*/
+    /*}*/
+    /*.t2-lt{*/
+        /*float:left;*/
+        /*width:30%;*/
+        /*height:150px;*/
+        /*position:absolute;*/
+        /*top:60px;*/
+        /*left:40px;*/
+        /*border: 1px solid #0000ff;*/
+    /*}*/
+    /*.t2-rt{*/
+        /*float:right;*/
+        /*width:286px;*/
+        /*position:absolute;*/
+        /*top:60px;*/
+        /*right:30px;*/
+        /*border: 1px solid #0000ff;*/
+    /*}*/
+
+/*}*/
+/*/!*1F小屏*!/*/
+/*@media (max-width: 991px) and (min-width: 576px) {*/
+    /*.t1-lt {*/
+        /*float: left;*/
+        /*width: 230px;*/
+        /*height: 200px;*/
+        /*position:absolute;*/
+        /*top: 60px;*/
+        /*left: 40px;*/
+        /*border: 1px solid #0000ff;*/
+    /*}*/
+
+    /*.t1-rt {*/
+        /*float: right;*/
+        /*position:absolute;*/
+        /*top: 30px;*/
+        /*right: 20px;*/
+        /*border: 1px solid #0000ff;*/
+    /*}*/
+    /*.t2-lt{*/
+        /*float:left;*/
+        /*width:30%;*/
+        /*height:200px;*/
+        /*position:absolute;*/
+        /*top:60px;*/
+        /*left:60px;*/
+        /*border: 1px solid #0000ff;*/
+    /*}*/
+    /*.t2-rt{*/
+        /*float:right;*/
+        /*width:286px;*/
+        /*position:absolute;*/
+        /*top:60px;*/
+        /*right:90px;*/
+        /*border: 1px solid #0000ff;*/
+    /*}*/
+/*}*/
+

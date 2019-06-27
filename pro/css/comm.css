@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*css reset*/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f5f5f5;
+  color: #666;
+  font-family:黑体�; }
+
+.font_small {
+  font-size: 0.8rem; }
+
+.my_header,.my_footer{
+  width:100%;
+}
+/*大屏下iframe的高度*/
+@media (min-width:992px){
+  .my_header{
+    height:5.5rem;
+  }
+  .my_footer{
+    height:18rem;
+  }
+}
+/*小屏和中屏iframe的高度*/
+@media (max-width: 991px) and (min-width: 576px) {
+  .my_header{height:12rem}
+  .my_footer{height:50rem}
+}
+.f_bg{
+  background:#e8e8e8 !important;
+}
+
